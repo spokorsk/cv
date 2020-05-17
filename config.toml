@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://spokorsk.github.io/"
+baseURL = "https://cv.pokorski.fr/"
 languageCode = "fr"
 title = "CV POKORSKI Sébastien"
 theme = "hugo-devresume-theme"
