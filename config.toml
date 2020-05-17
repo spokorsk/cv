@@ -1,0 +1,373 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "fr"
+title = "CV POKORSKI Sébastien"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+publishdir = "../blog.github.io/cv"
+
+
+
+
+
+
+[params]
+    author = "Pokorski Sébastien"
+    description = "Curriculum vitae d'un technicien de support en informatique"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#434242"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Pokorski Sébastien"
+        tagline = "Technicien Supérieur de Support en Informatique"
+        avatar = "avatar_ng3.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Faulx"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:0629372061"
+        text = "0629372061"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:spokorski@protonmail.com"
+        text = "spokorski@protonmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://monsite.pokorski.fr"
+        text = "monsite.pokorski.fr"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Techniques"
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = ""
+
+
+        [[params.skills.list]]
+        title = "Comportementales"
+        [[params.skills.list.items]]
+        details = "Pragmatique"
+        [[params.skills.list.items]]
+        details = "Créatif"
+        [[params.skills.list.items]]
+        details = "Pugnace"
+        [[params.skills.list.items]]
+        details = "Audacieux"
+        [[params.skills.list.items]]
+        details = "Communiquant"
+         [[params.skills.list.items]]
+        details = "Diplomate"
+         [[params.skills.list.items]]
+        details = "Curieux"
+         [[params.skills.list.items]]
+        details = "Résilient"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Technicien Supérieur de Support en Informatique (TS2I)"
+        university = "Titre Niveau III AFPA"
+        dates = "2010 - 2011"
+        [[params.education.list]]
+        degree = "Arts Graphique"
+        university = "Lycée Cyfflé G.R.E.T.A Nancy-Toul"
+        dates = "2000 - 2001"
+        [[params.education.list]]
+        degree = "Mention Complémentaire, Sommelier"
+        university = "Lycée Hôtelier de Strasbourg"
+        dates = "1996 - 1997"
+        [[params.education.list]]
+        degree = "BAC Professionnel, Hôtellerie Restauration"
+        university = "Lycée Polyvalent Régional Stanislas de Villers-Les-Nancy"
+        dates = "1994-1996"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "ABC du language C et Programmer en C"
+        body = "Plateforme F.U.N (France Université Numérique)"
+        date = "2017"
+         [[params.awards.list]]
+        name = "Gestion de Projet"
+        body = "Remi Bachelet, Centrale de Lille"
+        date = "2010"
+        
+        [[params.awards.list]]
+        name = "ITIL Foundation version 3"
+        body = "MII Formation"
+        date = "2010"
+
+
+
+
+
+
+
+
+
+    [params.languages]
+    
+        enable = true
+
+        [[params.languages.list]]
+        name = "Français"
+        level = "Langue Natale"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Randonnée GR20"
+        [[params.interests.list]]
+        name = "Nature"
+        [[params.interests.list]]
+        name = "Photographie"
+        [[params.interests.list]]
+        name = "Badminton"
+        [[params.interests.list]]
+        name = "Domotique"
+        [[params.interests.list]]
+        name = "Bricolage"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Depuis enfant, j'ai toujours été curieux sur le fonctionnement des objets qui nous entourent. De nature communicante... J'aime tenté plusieurs expériences et compléter mon existence par d'autres savoirs et connaissances. C'est dans cette optique que je suis toujours ouvert à d'autres opportunités afin de m'accomplir et de partager mon expérience acquise lors de mes différents emplois. Par cette indroduction j'espère vous avoir en partie convaincu sur mes choix de carrière définis dans ce curriculum vitae. Je suis également à votre dispostion pour en débattre"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Technicien de support informatique (SVP)"
+        dates = "Depuis 2010"
+        company = "L'Est Républicain, 54 Heillecourt"
+        details = "C.D.I. Support de Niveau 1 et 2 auprès des utilisateurs"
+        [[params.experience.list.items]]
+        details = "Coordination de projet, définition des besoins utilisateurs"
+        [[params.experience.list.items]]
+        details = "Hotline Helpdesk (N1+N2) : Clients internes (journalistes, secrétaires de rédaction, photographes,techniciens PAO, service administratifs) Clients externes (correspondants de presse, dépositaires, internautes lecteurs)"
+        
+
+        [[params.experience.list]]
+        title = "Technicien de Maintenance Communication Assistance (M.C.A)"
+        dates = "2003 - 2010"
+        company = "L'Est Républicain, 54 Heillecourt"
+        details = "C.D.I. Support de Niveau 1 et 2 auprès des utilisateurs"
+        [[params.experience.list.items]]
+        details = "Mise en place et maintenance de matériel informatique (Micro, réseaux, téléphonie), intervention sur différents sites"
+        [[params.experience.list.items]]
+        details = "Hotline Helpdesk (N1+N2) : Clients internes (journalistes, secrétaires de rédaction, photographes,techniciens PAO, service administratifs) Clients externes (correspondants de presse, dépositaires, internautes lecteurs)"
+        [[params.experience.list.items]]
+        details = "Câblage et brassages réseaux des locaux"
+
+        [[params.experience.list]]
+        title = "(Renouvellement de contrat) Animateur Formateur"
+        dates = "Avril 2002 - Janvier 2003"
+        company = "LORINFO, 54 Laxou Site Saint Jacques"
+        details = "C.D.D. Animation et formation sur un progiciel de Mise en page pour les journalistes et les secrétaires de Rédaction à L'Est Républicain"
+        [[params.experience.list.items]]
+        details = "Formation au module MEPI (Mise En Page Interactive), Extension Quark-Xpress développé par TRIAS developpement pour les secrétaires de rédaction et journalistes."
+        [[params.experience.list.items]]
+        details = "Assistance aux utilisateurs dans les agences de LʼEst Républicain"
+        [[params.experience.list.items]]
+        details = "Définition, collecte des besoins et corrections des anomalies avec l'équipe de développement"
+        
+        
+        [[params.experience.list]]
+        title = "Animateur Formateur"
+        dates = "Août 2001 - Mars 2002"
+        company = "L'Est Républicain, 54 Heillecourt"
+        details = "C.D.D. Animation et formation sur un progiciel de Mise en page pour les journalistes et les secrétaires de Rédaction à L'Est Républicain"
+        [[params.experience.list.items]]
+        details = "Formation au module MEPI (Mise En Page Interactive), Extension Quark-Xpress développé par TRIAS developpement pour les secrétaires de rédaction et journalistes."
+        [[params.experience.list.items]]
+        details = "Assistance aux utilisateurs dans les agences de LʼEst Républicain"
+        [[params.experience.list.items]]
+        details = "Définition, collecte des besoins et corrections des anomalies avec l'équipe de développement"
+        
+
+        [[params.experience.list]]
+        title = "Opérateur P.A.O"
+        dates = "2000-2001"
+        company = "Un point Cʼest tout, 54710 Ludres"
+        details = "Stagiaire Utilisation des logiciels Illustrator , Photoshop , Quark-Xpress , Word et Excel. Technique de système d'épreuves et de BAT (bon à tirer) Cromalin"
+        [[params.experience.list.items]]
+        details = "Photogravure"
+        [[params.experience.list.items]]
+        details = "P.A.O"
+        [[params.experience.list.items]]
+        details = "Packaging"
+        
+
+        [[params.experience.list]]
+        title = "En autodidacte"
+        dates = "1999-2000"
+        company = ""
+        details = "Illustrator , Photoshop , Quark-Xpress , Word et Excel."
+
+        [[params.experience.list]]
+        title = "Maître dʼhôtel"
+        dates = "1997-1999"
+        company = "Le Warwick, Genève"
+        details = "C.D.D. Hôtel-Restaurant Hôtellerie "
+        [[params.experience.list.items]]
+        details = "Clientèle Internationale Hôtel 4*"
+        [[params.experience.list.items]]
+        details = "Gestion de commandes du restaurant"
+        [[params.experience.list.items]]
+        details = "Gestion d'un Bar, de banquets"
+        
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/spokorsk"
+        title = "spokorsk"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/sébastien-pokorski-1a658829/"
+        title = "Sébastien Pokorski"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/spokorski"
+        title = "@spokorski"
+
+
+
+
+
