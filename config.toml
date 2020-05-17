@@ -142,7 +142,7 @@ publishdir = "../cv.github.io/"
          [[params.awards.list]]
         name = "Gestion de Projet"
         body = "Remi Bachelet, Centrale de Lille"
-        date = "2010"
+        date = "2015"
         
         [[params.awards.list]]
         name = "ITIL Foundation version 3"
