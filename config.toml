@@ -1,11 +1,11 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://spokorsk.github.io/"
 languageCode = "fr"
 title = "CV POKORSKI Sébastien"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-publishdir = "../blog.github.io/cv"
+publishdir = "../cv.github.io/"
 
 
 
