@@ -64,11 +64,11 @@ publishdir = "../cv.github.io/"
         [[params.skills.list]]
         title = "Techniques"
         [[params.skills.list.items]]
-        details = ""
+        details = "test"
         [[params.skills.list.items]]
-        details = ""
+        details = "test"
         [[params.skills.list.items]]
-        details = ""
+        details = "test"
         [[params.skills.list.items]]
         details = ""
         [[params.skills.list.items]]
