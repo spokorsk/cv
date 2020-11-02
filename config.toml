@@ -70,7 +70,7 @@ publishdir = "../cv.github.io/"
         [[params.skills.list.items]]
         details = "test"
         [[params.skills.list.items]]
-        details = ""
+        details = "test"
         [[params.skills.list.items]]
         details = ""
         [[params.skills.list.items]]
