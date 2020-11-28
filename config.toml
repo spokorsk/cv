@@ -331,18 +331,11 @@ publishdir = "../cv.github.io/"
 
 
     [params.information]
-        enable = false
+        enable = true
 
         [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
+        title = "CV en cours de publication"
+         
 
 
 
