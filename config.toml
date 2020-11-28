@@ -36,7 +36,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.contact]
-        enable = true
+        enable = false
         location = "Faulx"
 
         [[params.contact.list]]
@@ -59,7 +59,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.skills]
-        enable = true
+        enable = false
 
         [[params.skills.list]]
         title = "Techniques"
@@ -106,7 +106,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.education]
-        enable = true
+        enable = false
 
         [[params.education.list]]
         degree = "Technicien Supérieur de Support en Informatique (TS2I)"
@@ -133,7 +133,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.awards]
-        enable = true
+        enable = false
 
         [[params.awards.list]]
         name = "ABC du language C et Programmer en C"
@@ -159,7 +159,7 @@ publishdir = "../cv.github.io/"
 
     [params.languages]
     
-        enable = true
+        enable = false
 
         [[params.languages.list]]
         name = "Français"
@@ -176,7 +176,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.interests]
-        enable = true
+        enable = false
 
         [[params.interests.list]]
         name = "Randonnée GR20"
@@ -199,7 +199,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.summary]
-        enable = true
+        enable = false
         text = "Depuis enfant, j'ai toujours été curieux sur le fonctionnement des objets qui nous entourent. De nature communicante... J'aime tenté plusieurs expériences et compléter mon existence par d'autres savoirs et connaissances. C'est dans cette optique que je suis toujours ouvert à d'autres opportunités afin de m'accomplir et de partager mon expérience acquise lors de mes différents emplois. Par cette indroduction j'espère vous avoir en partie convaincu sur mes choix de carrière définis dans ce curriculum vitae. Je suis également à votre dispostion pour en débattre"
 
 
@@ -210,7 +210,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.experience]
-        enable = true
+        enable = false
 
         [[params.experience.list]]
         title = "Technicien de support informatique (SVP)"
