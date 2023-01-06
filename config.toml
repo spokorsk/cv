@@ -2,6 +2,7 @@
 
 baseURL = "https://cv.pokorski.fr/"
 languageCode = "fr"
+defaultContentLanguage = "fr"
 title = "CV POKORSKI Sébastien"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
@@ -14,7 +15,7 @@ publishdir = "../cv.github.io/"
 
 [params]
     author = "Pokorski Sébastien"
-    description = "Curriculum vitae d'un technicien de support en informatique"
+    description = "Curriculum vitae"
 
 
     primaryColor = "#54B689"
@@ -36,7 +37,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.contact]
-        enable = false
+        enable = true
         location = "Faulx"
 
         [[params.contact.list]]
@@ -59,18 +60,18 @@ publishdir = "../cv.github.io/"
 
 
     [params.skills]
-        enable = false
+        enable = true
 
         [[params.skills.list]]
         title = "Techniques"
         [[params.skills.list.items]]
-        details = "test"
+        details = "Administration de serveurs, Microsoft Hyper-v (virtualisation), Windows Server 2016 Entreprise"
         [[params.skills.list.items]]
-        details = "test"
+        details = "Suite Microsoft Office (Word, Excel, Powerpoint, Outlook)"
         [[params.skills.list.items]]
-        details = "test"
+        details = "Scripting, programmation système"
         [[params.skills.list.items]]
-        details = "test"
+        details = "Méthode de résolution de problèmes"
         [[params.skills.list.items]]
         details = ""
         [[params.skills.list.items]]
@@ -106,7 +107,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.education]
-        enable = false
+        enable = true
 
         [[params.education.list]]
         degree = "Technicien Supérieur de Support en Informatique (TS2I)"
@@ -133,7 +134,13 @@ publishdir = "../cv.github.io/"
 
 
     [params.awards]
-        enable = false
+        enable = true
+
+        
+        [[params.awards.list]]
+        name = "Administrateur Hyper-V"
+        body = "M2I"
+        date = "2021"
 
         [[params.awards.list]]
         name = "ABC du language C et Programmer en C"
@@ -159,7 +166,7 @@ publishdir = "../cv.github.io/"
 
     [params.languages]
     
-        enable = false
+        enable = true
 
         [[params.languages.list]]
         name = "Français"
@@ -176,7 +183,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.interests]
-        enable = false
+        enable = true
 
         [[params.interests.list]]
         name = "Randonnée GR20"
@@ -199,9 +206,8 @@ publishdir = "../cv.github.io/"
 
 
     [params.summary]
-        enable = false
-        text = "Depuis enfant, j'ai toujours été curieux sur le fonctionnement des objets qui nous entourent. De nature communicante... J'aime tenté plusieurs expériences et compléter mon existence par d'autres savoirs et connaissances. C'est dans cette optique que je suis toujours ouvert à d'autres opportunités afin de m'accomplir et de partager mon expérience acquise lors de mes différents emplois. Par cette indroduction j'espère vous avoir en partie convaincu sur mes choix de carrière définis dans ce curriculum vitae. Je suis également à votre dispostion pour en débattre"
-
+        enable = true
+        text = "J'ai toujours été fasciné par le fonctionnement des objets qui nous entourent. Depuis mon enfance, je suis curieux et j'ai soif de connaissances. Cette soif de savoir m'a poussé à être toujours ouvert à de nouvelles opportunités afin de m'accomplir et de partager mon expérience acquise lors de mes différents emplois. Je suis convaincu que cette curiosité et cette ouverture d'esprit sont les clés de mon succès professionnel jusqu'à présent. Dans mon curriculum vitae, vous trouverez une liste détaillée de mes expériences et de mes réalisations. Si vous souhaitez en savoir plus sur moi et sur mes choix de carrière, je suis à votre disposition pour en discuter plus en détail."
 
 
 
@@ -210,12 +216,25 @@ publishdir = "../cv.github.io/"
 
 
     [params.experience]
-        enable = false
+        enable = true
+
+        [[params.experience.list]]
+        title = "Hotliner, Administrateur (SVP)"
+        dates = "Depuis 2021"
+        company = "Ebra Services, 54 Heillecourt"
+        url = "https://www.ebra.fr"
+        details = "C.D.I. Support de Niveau 1 et 2 auprès des utilisateurs"
+        
+        [[params.experience.list.items]]
+        details = "Administrateur de la partie industrielle de L'Est Républicain, Vosges Matin, Républicain Lorrain, superviseur équipements industriel du groupe EBRA"
+        [[params.experience.list.items]]
+        details = "Hotline Helpdesk (N1+N2) : Clients internes du groupe EBRA (journalistes, secrétaires de rédaction, photographes,techniciens PAO, service administratifs) Clients externes (correspondants de presse, dépositaires, internautes lecteurs)"
 
         [[params.experience.list]]
         title = "Technicien de support informatique (SVP)"
-        dates = "Depuis 2010"
+        dates = "2010 - 2020"
         company = "L'Est Républicain, 54 Heillecourt"
+         url = "https://www.estrepublicain.fr"
         details = "C.D.I. Support de Niveau 1 et 2 auprès des utilisateurs"
         [[params.experience.list.items]]
         details = "Coordination de projet, définition des besoins utilisateurs"
@@ -227,6 +246,7 @@ publishdir = "../cv.github.io/"
         title = "Technicien de Maintenance Communication Assistance (M.C.A)"
         dates = "2003 - 2010"
         company = "L'Est Républicain, 54 Heillecourt"
+        url = "https://www.estrepublicain.fr"
         details = "C.D.I. Support de Niveau 1 et 2 auprès des utilisateurs"
         [[params.experience.list.items]]
         details = "Mise en place et maintenance de matériel informatique (Micro, réseaux, téléphonie), intervention sur différents sites"
@@ -239,6 +259,7 @@ publishdir = "../cv.github.io/"
         title = "(Renouvellement de contrat) Animateur Formateur"
         dates = "Avril 2002 - Janvier 2003"
         company = "LORINFO, 54 Laxou Site Saint Jacques"
+        url = "https://www.verif.com/societe/LORINFO-SAS-440004927/"
         details = "C.D.D. Animation et formation sur un progiciel de Mise en page pour les journalistes et les secrétaires de Rédaction à L'Est Républicain"
         [[params.experience.list.items]]
         details = "Formation au module MEPI (Mise En Page Interactive), Extension Quark-Xpress développé par TRIAS developpement pour les secrétaires de rédaction et journalistes."
@@ -252,6 +273,7 @@ publishdir = "../cv.github.io/"
         title = "Animateur Formateur"
         dates = "Août 2001 - Mars 2002"
         company = "L'Est Républicain, 54 Heillecourt"
+        url = "https://www.estrepublicain.fr"
         details = "C.D.D. Animation et formation sur un progiciel de Mise en page pour les journalistes et les secrétaires de Rédaction à L'Est Républicain"
         [[params.experience.list.items]]
         details = "Formation au module MEPI (Mise En Page Interactive), Extension Quark-Xpress développé par TRIAS developpement pour les secrétaires de rédaction et journalistes."
@@ -265,7 +287,8 @@ publishdir = "../cv.github.io/"
         title = "Opérateur P.A.O"
         dates = "2000-2001"
         company = "Un point Cʼest tout, 54710 Ludres"
-        details = "Stagiaire Utilisation des logiciels Illustrator , Photoshop , Quark-Xpress , Word et Excel. Technique de système d'épreuves et de BAT (bon à tirer) Cromalin"
+        url = "https://www.societe.com/etablissement/un-point-c-est-tout-39456611100016.html"
+         details = "Stagiaire Utilisation des logiciels Illustrator , Photoshop , Quark-Xpress , Word et Excel. Technique de système d'épreuves et de BAT (bon à tirer) Cromalin"
         [[params.experience.list.items]]
         details = "Photogravure"
         [[params.experience.list.items]]
@@ -284,6 +307,7 @@ publishdir = "../cv.github.io/"
         title = "Maître dʼhôtel"
         dates = "1997-1999"
         company = "Le Warwick, Genève"
+        url = "https://www.warwickhotels.com/fr/warwick-geneva"
         details = "C.D.D. Hôtel-Restaurant Hôtellerie "
         [[params.experience.list.items]]
         details = "Clientèle Internationale Hôtel 4*"
@@ -331,7 +355,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "CV en cours de publication"
