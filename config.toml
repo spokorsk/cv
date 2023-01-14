@@ -206,7 +206,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.summary]
-        enable = true
+        enable = true 
         #text = """J'ai toujours été fasciné par le fonctionnement des objets qui nous entourent. Depuis mon enfance, 
         #je suis curieux et j'ai soif de connaissances. 
         #Cette soif de savoir m'a poussé à être toujours ouvert à de nouvelles opportunités afin de m'accomplir et de partager mon expérience acquise lors de mes différents emplois. 
@@ -334,7 +334,7 @@ publishdir = "../cv.github.io/"
 
 
     [params.projects]
-        enable = false
+        enable = true
 
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
