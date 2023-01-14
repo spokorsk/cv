@@ -48,10 +48,10 @@ publishdir = "../cv.github.io/"
         icon = "fas fa-envelope-square"
         url = "mailto:spokorski@protonmail.com"
         text = "spokorski@protonmail.com"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://monsite.pokorski.fr"
-        text = "monsite.pokorski.fr"
+        #[[params.contact.list]]
+        #icon = "fas fa-globe"
+        #url = "https://monsite.pokorski.fr"
+        #text = "monsite.pokorski.fr"
 
 
 
@@ -73,9 +73,9 @@ publishdir = "../cv.github.io/"
         [[params.skills.list.items]]
         details = "Méthode de résolution de problèmes"
         [[params.skills.list.items]]
-        details = ""
+        details = "Outils de ticketing"
         [[params.skills.list.items]]
-        details = ""
+        details = "Cisco Systems, Switching"
         [[params.skills.list.items]]
         details = ""
 
@@ -153,7 +153,7 @@ publishdir = "../cv.github.io/"
         
         [[params.awards.list]]
         name = "ITIL Foundation version 3"
-        body = "MII Formation"
+        body = "M2I Formation"
         date = "2010"
 
 
@@ -207,8 +207,14 @@ publishdir = "../cv.github.io/"
 
     [params.summary]
         enable = true
-        text = "J'ai toujours été fasciné par le fonctionnement des objets qui nous entourent. Depuis mon enfance, je suis curieux et j'ai soif de connaissances. Cette soif de savoir m'a poussé à être toujours ouvert à de nouvelles opportunités afin de m'accomplir et de partager mon expérience acquise lors de mes différents emplois. Je suis convaincu que cette curiosité et cette ouverture d'esprit sont les clés de mon succès professionnel jusqu'à présent. Dans mon curriculum vitae, vous trouverez une liste détaillée de mes expériences et de mes réalisations. Si vous souhaitez en savoir plus sur moi et sur mes choix de carrière, je suis à votre disposition pour en discuter plus en détail."
+        #text = """J'ai toujours été fasciné par le fonctionnement des objets qui nous entourent. Depuis mon enfance, 
+        #je suis curieux et j'ai soif de connaissances. 
+        #Cette soif de savoir m'a poussé à être toujours ouvert à de nouvelles opportunités afin de m'accomplir et de partager mon expérience acquise lors de mes différents emplois. 
+        #Je suis convaincu que cette curiosité et cette ouverture d'esprit sont les clés de mon succès professionnel jusqu'à présent. 
+        #Dans mon curriculum vitae, vous trouverez une liste détaillée de mes expériences et de mes réalisations.</br>
+        #Si vous souhaitez en savoir plus sur moi et sur mes choix de carrière,\nje suis à votre disposition pour en discuter plus en détail."""
 
+       
 
 
 
